@@ -6,20 +6,40 @@ body {
     margin-right: 50px;
     margin-left: 50px;
 }
-main {
-    display: flex;
+.titulo-usados {
+    text-align: center;
 }
 .usados-todos{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     background-color:black;
     gap: 20px;
-    flex-wrap: wrap;
-
-}
-.usados-todos .usados img {
     width: 100%;
-    height: 250px;
+}
+.usados-todos .usados1 img {
+    width: 100%;
+    height: 350px;
+}
+.usados-todos .usados2 img {
+    width: 100%;
+    height: 350px;
+}
+.usados-todos .usados3 img {
+    width: 100%;
+    height: 350px;
+}
+.usados1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.usados2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.usados3 {
+   grid-area: 1 / 3 / 2 / 4; 
+}
+.titulo-cerokm {
+    text-align: center;
 }
 .cerokm-todos{
     display: flex;
@@ -27,19 +47,25 @@ main {
     background-color: black;
     gap: 20px;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .cerokm-todos .cerokm img {
   width: 100%;
-  height: 250px;
+  height: 400px;
 }
 section{
-    display: flex;
     padding: 10px;
     background-color: black;
 }
+.test-ubi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .test {
-text-align: center;
-display: flex;
+    width: 100%;
+    text-align: center;
+    float: left;
 }
 .tit-test {
     color: white;
@@ -48,14 +74,16 @@ display: flex;
     color: white;
 }
 .ubi{
+    width: 100%;
    text-align: center;
-   display: flex;
+   float:right;
+   
 }
 
 footer {
     display: flex;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color:deepskyblue;
     padding: 15px;
     display: inline-block;
 }
@@ -71,4 +99,22 @@ footer {
     height: 60px;
      width: 60px;
     float:right;
+}
+@media (max-width: 840px) {
+    .test-ubi {
+        display: block;
+    }
+    .usados-todos {
+        display: block;
+    }
+    .cerokm-todos {
+        display: block;
+    }
+}
+@media (max-width: 840px) {
+    .footer {
+        display: block;
+        text-align: center;
+        position:relative;
+    }
 }
