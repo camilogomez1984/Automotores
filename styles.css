@@ -102,6 +102,66 @@ footer {
      width: 60px;
     float:right;
 }
+.siluetas {
+    display: flex;
+    height: 110px;
+    width:100%;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.siluetas-img {
+    height: 80px;
+    width: 80px;
+    margin-right: 50px;
+}
+.usados-c-a-m {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightcyan;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+li {
+    font-size: 23px;
+    text-align: center;
+    color: black;
+}
+.a {
+    text-decoration: none;
+    color:black;
+}
+.usados-c-a-m .c-a-m img {
+    height: 40%;
+    width: 150px;
+}
+.c-a-m {
+    background-color:rgb(146, 170, 189);
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.parrafos {
+    display:flex;
+    background-color: aliceblue;
+    border: solid black;
+}
+.parrafos .parrafo1 p {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parrafos .parrafo2 p {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.parrafos .parrafo3 p {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cero-subt {
+    border: solid black;
+}
 @media (max-width: 840px) {
     .test-ubi {
         display: block;
