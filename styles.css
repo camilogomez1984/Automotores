@@ -148,7 +148,13 @@ li {
     margin-top: 5px;
     border: solid;
 }
-
+.carrusel {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
 .parrafos {
     display:flex;
     background-color: aliceblue;
@@ -187,6 +193,11 @@ li {
         display: block;
     }
     }
+@media (max-width: 460px) {
+    .usados-c-a-m {
+       display: block;
+    }
+    }    
 @media (max-width: 840px) {
     .footer {
         display: block;
