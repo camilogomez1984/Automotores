@@ -127,6 +127,18 @@ footer {
     width: 80px;
     margin-right: 50px;
 }
+.cero-subt {
+    text-align: center;
+    max-width: 100%;
+}
+.todo-0kms {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.todo-0kms .cerokms-cam img {
+    width: 100%;
+    height: 450px;
+}
 .usados-c-a-m {
     display: flex;
     flex-wrap: wrap;
@@ -188,31 +200,44 @@ li {
 .cero-subt {
     border: solid black;
 }
+@media (max-width: 1000px){
+    .todo-0kms {
+       display:flex;
+       flex-direction: column;
+    }
+}
 @media (max-width: 840px) {
     .test-ubi {
-        display: block;
+        display:flex;
+        flex-direction: column; 
     }
     .usados-todos {
-        display: block;
+        display:flex;
+        flex-direction: column;
     }
     .cerokm-todos {
-        display: block;
+        display:flex;
+        flex-direction: column;
     }
     .tit-test {
-        display: block;
+        display:flex;
+        flex-direction: column;
     }
     .tit-ubi {
-        display: block;
+        display:flex;
+        flex-direction: column;
     }
     }
 @media (max-width: 460px) {
     .usados-c-a-m {
-       display: block;
+       display:flex;
+       flex-direction: column;
     }
     }    
 @media (max-width: 840px) {
     .footer {
-        display: block;
+        display:flex;
+       flex-direction: column;
         text-align: center;
         position:relative;
     }
