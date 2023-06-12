@@ -83,7 +83,6 @@ section{
 .test {
     width: 100%;
     text-align: center;
-    float: left;
 }
 .tit-test {
     background-color: black;
@@ -98,18 +97,15 @@ section{
 .ubi{
     width: 100%;
    text-align: center;
-   float:right;
 }
 footer {
-    display: flex;
     width: 100%;
     background-color:deepskyblue;
     padding: 15px;
-    display: inline-block;
 }
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 .foot-logo{
     height: 100px;
@@ -118,7 +114,6 @@ footer {
 .icon{
     height: 60px;
      width: 60px;
-    float:right;
 }
 .siluetas {
     display: flex;
