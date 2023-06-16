@@ -1,3 +1,4 @@
+$colorPrincipal: deepskyblue;
 body {
     background-color: black;
 }
@@ -17,7 +18,7 @@ body {
     width: 100%;
 }
 button {
-    background-color: deepskyblue;
+    background-color: $colorPrincipal;
     color: white;
     font-size: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -25,7 +26,7 @@ button {
 }
 button:hover {
     background-color: black;
-    color:deepskyblue;
+    color: $colorPrincipal;
 }
 .usados-todos {
     .usados1 {
@@ -106,7 +107,7 @@ section {
 }
 footer {
     width: 100%;
-    background-color:deepskyblue;
+    background-color:$colorPrincipal;
     padding: 15px;
     .footer {
         display: flex;
@@ -145,9 +146,24 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     .cerokms-cam {
+        text-align: center;
+        button {
+            width: 100%;
+        }
         img {
             width: 100%;
             height: 450px;
+        }
+        ul{
+            list-style-type: none;
+            li{
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+               a {
+                text-decoration: none;
+                color: black;
+               }
+            }
         }
     }
 }
@@ -163,6 +179,10 @@ footer {
         margin-right: 10px;
         margin-top: 5px;
         border: solid;
+        text-align: center;
+        button {
+            width: 100%;
+        }
         img {
             height: 40%;
             width: 100%;
@@ -272,4 +292,5 @@ footer {
     .usados-c-a-m {
         grid-template-columns: 1fr 1fr;
     }
-}    
+}
+

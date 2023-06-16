@@ -151,9 +151,26 @@ footer .footer .box .icon {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.todo-0kms .cerokms-cam {
+  text-align: center;
+}
+.todo-0kms .cerokms-cam button {
+  width: 100%;
+}
 .todo-0kms .cerokms-cam img {
   width: 100%;
   height: 450px;
+}
+.todo-0kms .cerokms-cam ul {
+  list-style-type: none;
+}
+.todo-0kms .cerokms-cam ul li {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo-0kms .cerokms-cam ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 .usados-c-a-m {
@@ -169,6 +186,10 @@ footer .footer .box .icon {
   margin-right: 10px;
   margin-top: 5px;
   border: solid;
+  text-align: center;
+}
+.usados-c-a-m .c-a-m button {
+  width: 100%;
 }
 .usados-c-a-m .c-a-m img {
   height: 40%;
