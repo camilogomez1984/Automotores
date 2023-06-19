@@ -80,7 +80,6 @@ button:hover {
     }
 }
 section {
-    padding: 10px;
     background-color:black;
     .test-ubi {
         display: grid;
@@ -124,19 +123,35 @@ footer {
         }
     }
 }
-.siluetas {
-    display: flex;
-    height: 110px;
-    width:100%;
-    justify-content: center;
-    background-color: aliceblue;
-    img {
-        height: 70px;
+
+@keyframes animacion {
+    0% {
         width: 100%;
-        margin-right: 50px;
-        display: flex;
-        justify-content: space-around;
+        background-color:black;
+        color: black;
     }
+    50% {
+        width: 100%;
+        background-color:black;
+        color:$colorPrincipal;
+        font-family:'Times New Roman', Times, serif;
+    }
+    100% {
+        width: 100%;
+        background-color: rgb(27, 3, 3);
+        color: rgb(139, 177, 211);
+    }
+}
+.h1-animado {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    animation-name: animacion;
+    animation-delay: 1s;
+    animation-duration: 7s;
+    animation-iteration-count: inherit;
+    animation-timing-function: linear;
 }
 .cero-subt {
     text-align: center;

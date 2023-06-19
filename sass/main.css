@@ -83,7 +83,6 @@ button:hover {
 }
 
 section {
-  padding: 10px;
   background-color: black;
 }
 section .test-ubi {
@@ -127,19 +126,34 @@ footer .footer .box .icon {
   width: 60px;
 }
 
-.siluetas {
-  display: flex;
-  height: 110px;
-  width: 100%;
-  justify-content: center;
-  background-color: aliceblue;
+@keyframes animacion {
+  0% {
+    width: 100%;
+    background-color: black;
+    color: black;
+  }
+  50% {
+    width: 100%;
+    background-color: black;
+    color: deepskyblue;
+    font-family: "Times New Roman", Times, serif;
+  }
+  100% {
+    width: 100%;
+    background-color: rgb(27, 3, 3);
+    color: rgb(139, 177, 211);
+  }
 }
-.siluetas img {
-  height: 70px;
-  width: 100%;
-  margin-right: 50px;
-  display: flex;
-  justify-content: space-around;
+.h1-animado {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  animation-name: animacion;
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-iteration-count: inherit;
+  animation-timing-function: linear;
 }
 
 .cero-subt {
