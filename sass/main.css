@@ -128,67 +128,6 @@ footer .footer .box .icon {
   width: 60px;
 }
 
-@keyframes animacion {
-  0% {
-    width: 100%;
-    background-color: black;
-    color: black;
-  }
-  50% {
-    width: 100%;
-    background-color: black;
-    color: deepskyblue;
-    font-family: "Times New Roman", Times, serif;
-  }
-  100% {
-    width: 100%;
-    background-color: rgb(27, 3, 3);
-    color: rgb(139, 177, 211);
-  }
-}
-.h1-animado {
-  padding: 10px;
-  text-align: center;
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-  animation-name: animacion;
-  animation-delay: 1s;
-  animation-duration: 7s;
-  animation-iteration-count: inherit;
-  animation-timing-function: linear;
-}
-
-.cero-subt {
-  text-align: center;
-  max-width: 100%;
-}
-
-.todo-0kms {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.todo-0kms .cerokms-cam {
-  text-align: center;
-}
-.todo-0kms .cerokms-cam button {
-  width: 100%;
-}
-.todo-0kms .cerokms-cam img {
-  width: 100%;
-  height: 450px;
-}
-.todo-0kms .cerokms-cam ul {
-  list-style-type: none;
-}
-.todo-0kms .cerokms-cam ul li {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.todo-0kms .cerokms-cam ul li a {
-  text-decoration: none;
-  color: black;
-}
-
 .usados-c-a-m {
   display: flex;
   flex-wrap: wrap;
@@ -227,6 +166,36 @@ footer .footer .box .icon {
   color: black;
 }
 
+@keyframes animacion {
+  0% {
+    width: 100%;
+    background-color: black;
+    color: black;
+  }
+  50% {
+    width: 100%;
+    background-color: black;
+    color: deepskyblue;
+    font-family: "Times New Roman", Times, serif;
+  }
+  100% {
+    width: 100%;
+    background-color: rgb(27, 3, 3);
+    color: rgb(139, 177, 211);
+  }
+}
+.h1-animado {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  animation-name: animacion;
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-iteration-count: inherit;
+  animation-timing-function: linear;
+}
+
 .carrusel {
   background-color: black;
   color: white;
@@ -252,6 +221,37 @@ footer .footer .box .icon {
 .parrafos .parrafo3 p {
   font-size: 22px;
   font-family: "Times New Roman", Times, serif;
+}
+
+.cero-subt {
+  text-align: center;
+  max-width: 100%;
+}
+
+.todo-0kms {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.todo-0kms .cerokms-cam {
+  text-align: center;
+}
+.todo-0kms .cerokms-cam button {
+  width: 100%;
+}
+.todo-0kms .cerokms-cam img {
+  width: 100%;
+  height: 450px;
+}
+.todo-0kms .cerokms-cam ul {
+  list-style-type: none;
+}
+.todo-0kms .cerokms-cam ul li {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo-0kms .cerokms-cam ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 .cero-subt {

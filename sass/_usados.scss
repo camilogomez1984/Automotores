@@ -1,0 +1,97 @@
+.usados-c-a-m {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:azure;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    .c-a-m {
+        background-color:aliceblue;
+        margin-right: 10px;
+        margin-top: 5px;
+        border: solid;
+        text-align: center;
+        button {
+            width: $widthmax;
+        }
+        img {
+            height: 40%;
+            width: $widthmax;
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            list-style: none;
+            text-decoration: none;
+            li {
+                font-size: 23px;
+                text-align: center;
+                color: $colorSecundario;
+                .a {
+                    text-decoration: none;
+                    color:$colorSecundario; 
+                }
+            } 
+        }
+    }
+}
+@keyframes animacion {
+    0% {
+        width: $widthmax;
+        background-color:$colorSecundario;
+        color: $colorSecundario;
+    }
+    50% {
+        width: $widthmax;
+        background-color:$colorSecundario;
+        color:$colorPrincipal;
+        font-family:'Times New Roman', Times, serif;
+    }
+    100% {
+        width: $widthmax;
+        background-color: rgb(27, 3, 3);
+        color: rgb(139, 177, 211);
+    }
+}
+.h1-animado {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    animation-name: animacion;
+    animation-delay: 1s;
+    animation-duration: 7s;
+    animation-iteration-count: inherit;
+    animation-timing-function: linear;
+}
+.carrusel {
+    background-color: $colorSecundario;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+.parrafos {
+    display:flex;
+    background-color: aliceblue;
+    border: solid $colorSecundario;
+    margin-top: 10px;
+    .parrafo1 {
+        p {
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;  
+        }
+    }
+    .parrafo2 {
+        p {
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;   
+        }
+    }
+    .parrafo3 {
+        p {
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;  
+        }  
+    }
+}
