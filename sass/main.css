@@ -10,6 +10,7 @@ body {
 .titulo-usados {
   padding: 10px;
   text-align: center;
+  color: white;
 }
 
 .usados-todos {
@@ -63,6 +64,7 @@ button:hover {
 
 .titulo-cerokm {
   text-align: center;
+  color: white;
 }
 
 .cerokm-todos {
