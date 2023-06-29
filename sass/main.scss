@@ -4,40 +4,8 @@ $widthmax: 100%;
 
 @import "index";
 @import "usados";
+@import "0kms";
 
-.cero-subt {
-    text-align: center;
-    max-width: 100%;
-}
-.todo-0kms {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    .cerokms-cam {
-        text-align: center;
-        button {
-            width: $widthmax;
-        }
-        img {
-            width: $widthmax;
-            height: 450px;
-        }
-        ul{
-            list-style-type: none;
-            li{
-                text-align: center;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-               a {
-                text-decoration: none;
-                color: $colorSecundario;
-               }
-            }
-        }
-    }
-}
-
-.cero-subt {
-    border: solid $colorSecundario;
-}
 @media (max-width: 1000px){
     .todo-0kms {
        display:flex;
