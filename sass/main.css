@@ -8,6 +8,7 @@ body {
 }
 
 .titulo-usados {
+  padding: 10px;
   text-align: center;
 }
 
@@ -23,9 +24,8 @@ body {
 button {
   background-color: deepskyblue;
   color: white;
-  font-size: 10px;
+  font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 15px;
 }
 
 button:hover {
