@@ -1,7 +1,9 @@
 .cero-subt {
+    color: white;
     text-align: center;
     max-width: 100%;
     border: solid $colorSecundario;
+    background: linear-gradient( $colorSecundario, rgb(11, 18, 59), $colorSecundario);
 }
 .todo-0kms {
     display: grid;

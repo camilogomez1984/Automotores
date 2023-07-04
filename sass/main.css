@@ -7,10 +7,32 @@ body {
   margin-left: 50px;
 }
 
+@keyframes efecto-usados {
+  0% {
+    width: 100%;
+    background-color: black;
+    color: black;
+  }
+  50% {
+    width: 100%;
+    background-color: black;
+    color: deepskyblue;
+  }
+  100% {
+    width: 100%;
+    background-color: rgb(27, 3, 3);
+    color: rgb(139, 177, 211);
+  }
+}
 .titulo-usados {
   padding: 10px;
   text-align: center;
   color: white;
+  animation-name: efecto-usados;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-iteration-count: inherit;
+  animation-timing-function: linear;
 }
 
 .usados-todos {
@@ -62,9 +84,31 @@ button:hover {
   text-align: center;
 }
 
+@keyframes efecto-cerokm {
+  0% {
+    width: 100%;
+    background-color: black;
+    color: black;
+  }
+  50% {
+    width: 100%;
+    background-color: black;
+    color: deepskyblue;
+  }
+  100% {
+    width: 100%;
+    background-color: rgb(27, 3, 3);
+    color: rgb(139, 177, 211);
+  }
+}
 .titulo-cerokm {
   text-align: center;
   color: white;
+  animation-name: efecto-cerokm;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-iteration-count: inherit;
+  animation-timing-function: linear;
 }
 
 .cerokm-todos {
@@ -96,18 +140,18 @@ section .test-ubi .test {
   text-align: center;
 }
 section .test-ubi .test .tit-test {
-  background-color: black;
   color: white;
   padding: 15px;
+  background: linear-gradient(black, rgb(11, 18, 59), black);
 }
 section .test-ubi .ubi {
   width: 100%;
   text-align: center;
 }
 section .test-ubi .ubi .tit-ubi {
-  background-color: black;
   color: white;
   padding: 15px;
+  background: linear-gradient(black, rgb(11, 18, 59), black);
 }
 
 footer {
@@ -197,36 +241,41 @@ footer .footer .box .icon {
 }
 
 .carrusel {
-  background-color: black;
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
+  background: linear-gradient(black, rgb(11, 18, 59), black);
 }
 
 .parrafos {
   display: flex;
-  background-color: aliceblue;
+  background: linear-gradient(black, rgb(11, 18, 59), black);
   border: solid black;
   margin-top: 10px;
 }
 .parrafos .parrafo1 p {
+  color: white;
   font-size: 22px;
   font-family: "Times New Roman", Times, serif;
 }
 .parrafos .parrafo2 p {
+  color: white;
   font-size: 22px;
   font-family: "Times New Roman", Times, serif;
 }
 .parrafos .parrafo3 p {
+  color: white;
   font-size: 22px;
   font-family: "Times New Roman", Times, serif;
 }
 
 .cero-subt {
+  color: white;
   text-align: center;
   max-width: 100%;
   border: solid black;
+  background: linear-gradient(black, rgb(11, 18, 59), black);
 }
 
 .todo-0kms {
