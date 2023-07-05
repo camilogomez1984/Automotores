@@ -94,6 +94,11 @@ button:hover {
         background-color:$colorSecundario;
         color:$colorPrincipal;
     }
+    75% {
+        width: $widthmax;
+        background-color:rgb(1, 1, 75);
+        color: $colorPrincipal;
+    }
     100% {
         width: $widthmax;
         background-color: rgb(27, 3, 3);

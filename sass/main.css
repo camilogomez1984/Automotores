@@ -95,6 +95,11 @@ button:hover {
     background-color: black;
     color: deepskyblue;
   }
+  75% {
+    width: 100%;
+    background-color: rgb(1, 1, 75);
+    color: deepskyblue;
+  }
   100% {
     width: 100%;
     background-color: rgb(27, 3, 3);
@@ -181,7 +186,7 @@ footer .footer .box .icon {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .usados-c-a-m .c-a-m {
-  background-color: aliceblue;
+  background-color: hwb(215 82% 4%);
   margin-right: 10px;
   margin-top: 5px;
   border: solid;
