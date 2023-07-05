@@ -13,14 +13,24 @@ body {
     background-color: black;
     color: black;
   }
+  25% {
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
   50% {
     width: 100%;
     background-color: black;
     color: deepskyblue;
   }
+  75% {
+    width: 100%;
+    background-color: rgb(1, 1, 75);
+    color: deepskyblue;
+  }
   100% {
     width: 100%;
-    background-color: rgb(27, 3, 3);
+    background-color: black;
     color: rgb(139, 177, 211);
   }
 }
@@ -90,6 +100,11 @@ button:hover {
     background-color: black;
     color: black;
   }
+  25% {
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
   50% {
     width: 100%;
     background-color: black;
@@ -102,7 +117,7 @@ button:hover {
   }
   100% {
     width: 100%;
-    background-color: rgb(27, 3, 3);
+    background-color: black;
     color: rgb(139, 177, 211);
   }
 }
